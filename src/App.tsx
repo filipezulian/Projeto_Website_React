@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar"
+import Carrossel from "./components/Carrossel"
 
-function App() {
-
+const App = () => {
   return (
-    <div className="w-screen h-screen">
-      <Navbar />
+    <div className="w-screen h-screen flex flex-col">
+      <Navbar/>
+      <Carrossel/>
     </div>
   )
 }
